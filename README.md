@@ -1,0 +1,1 @@
+This project is a html/css practice involving cloning the look of the Google homepage.
