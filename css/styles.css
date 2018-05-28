@@ -1,0 +1,49 @@
+.nav_link_text {
+    color: black;
+    opacity: .75;
+    font-size: 13px;
+}
+
+.nav_link_icon {
+    background-image: url(http://ssl.gstatic.com/gb/images/i1_1967ca6a.png);
+    background-size: 528px 68px;
+    padding-left: 15px;
+}
+
+/* #nav_link_images {
+    padding-right: 15px;
+} */
+
+#nav_link_apps {
+    background-position: -132px -38px;
+    opacity: .55;
+    height: 30px;
+    width: 30px;
+}
+
+#nav_link_bell {
+    background-position: -194px -21px;
+    opacity: .55;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
+
+#nav_link_initials {
+    background-image: 
+        url(https://lh3.googleusercontent.com/-Jcg8Hv7H-Ac/AAAAAAAAAAI/AAAAAAAAAAA/AB6qoq1K0DivnWNfxwCy862dkynXz1CMoA/s32-c-mo/photo.jpg);
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+}
+
+.google_logo {
+    height: 92px;
+    width: 272px;
+    /* padding-top: 109px; */
+}
+
+.google_div {
+    height: 233px;
+    margin-top: 89px;
+}
