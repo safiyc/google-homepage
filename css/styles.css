@@ -1,3 +1,6 @@
+body {
+    font-family: arial,sans-serif;
+}
 .nav_text {
     color: black;
     opacity: .75;
@@ -49,16 +52,52 @@
     border-radius: 50%;
 } */
 
+section {
+    height: 233px;
+    margin-top: 89px;
+}
 .google_logo {
     display:block;
     margin: auto;
     margin-top: 153px;
     height: 92px;
     width: 272px;
-    /* padding-top: 109px; */
 }
 
-section {
-    height: 233px;
-    margin-top: 89px;
+
+form {
+    margin: auto;
+    width: 484px;
+}
+
+.btn-block {
+    height: 44px;
+    overflow: hidden;
+    padding: 1px 65px 2px 16px;
+    white-space: nowrap;
+    border-radius: 2px;
+    border: 1px solid #e5e5e5;
+    border-bottom-color: #d1d1d1;
+    box-shadow: 0px 2px 2px -1px #d1d1d1;
+}
+
+
+
+.btns_centered {
+    text-align: center;
+}
+
+button {
+    height: 36px;
+    line-height: 27px;
+    border: none;
+    border-radius: 2px;
+    background: #f2f2f2;
+    color: #757575;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    min-width: 54px;
+    padding: 0 16px;
+    text-align: center;
 }
