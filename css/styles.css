@@ -1,18 +1,30 @@
-.nav_link_text {
+.nav_text {
     color: black;
     opacity: .75;
     font-size: 13px;
 }
 
+.nav_text:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+.nav_top {
+    height: 30px;
+    padding: 0;
+    margin-top: 15px;
+}
+
+/*
 .nav_link_icon {
     background-image: url(http://ssl.gstatic.com/gb/images/i1_1967ca6a.png);
     background-size: 528px 68px;
     padding-left: 15px;
 }
 
-/* #nav_link_images {
+#nav_link_images {
     padding-right: 15px;
-} */
+}
 
 #nav_link_apps {
     background-position: -132px -38px;
@@ -35,15 +47,18 @@
     height: 32px;
     width: 32px;
     border-radius: 50%;
-}
+} */
 
 .google_logo {
+    display:block;
+    margin: auto;
+    margin-top: 153px;
     height: 92px;
     width: 272px;
     /* padding-top: 109px; */
 }
 
-.google_div {
+section {
     height: 233px;
     margin-top: 89px;
 }
