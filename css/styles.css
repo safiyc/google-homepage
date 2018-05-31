@@ -1,6 +1,7 @@
 body {
     font-family: arial,sans-serif;
 }
+
 .nav_text {
     color: black;
     opacity: .75;
@@ -56,6 +57,7 @@ section {
     height: 233px;
     margin-top: 89px;
 }
+
 .google_logo {
     display:block;
     margin: auto;
@@ -64,24 +66,46 @@ section {
     width: 272px;
 }
 
-
 form {
     margin: auto;
-    width: 484px;
+    width: 584px;
 }
 
 .btn-block {
     height: 44px;
-    overflow: hidden;
-    padding: 1px 65px 2px 16px;
-    white-space: nowrap;
+    /* width: 484px; */
+    width: 100%;
     border-radius: 2px;
     border: 1px solid #e5e5e5;
     border-bottom-color: #d1d1d1;
     box-shadow: 0px 2px 2px -1px #d1d1d1;
 }
 
+input {
+    border: none;
+    outline: none;
+    /* width: 403px; */
+    width: 86%;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-left: 16px;
+    margin-top: 8px;
+}
+             
+.mic_space {
+    display: inline-block;
+    position: absolute;
+    height: 44px;
+    /* width: 65px; */
+    width: 14%;
+}
 
+.mic_icon {
+    height: 21px;
+    width: 14px;
+    margin-top: 10px;
+    margin-left: 31px;
+}
 
 .btns_centered {
     text-align: center;
@@ -101,3 +125,4 @@ button {
     padding: 0 16px;
     text-align: center;
 }
+
