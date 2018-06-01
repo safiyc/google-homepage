@@ -19,16 +19,17 @@ body {
     margin-top: 15px;
 }
 
-/*
 .nav_link_icon {
     background-image: url(http://ssl.gstatic.com/gb/images/i1_1967ca6a.png);
     background-size: 528px 68px;
-    padding-left: 15px;
+    /* height: 30px;
+    width: 30px; */
+    /* padding-left: 15px; */
 }
 
-#nav_link_images {
+/* #nav_link_images {
     padding-right: 15px;
-}
+} */
 
 #nav_link_apps {
     background-position: -132px -38px;
@@ -39,9 +40,11 @@ body {
 
 #nav_link_bell {
     background-position: -194px -21px;
+    background-color: black;
     opacity: .55;
     height: 20px;
     width: 20px;
+    margin-top: 4px;
     border-radius: 50%;
 }
 
@@ -51,7 +54,8 @@ body {
     height: 32px;
     width: 32px;
     border-radius: 50%;
-} */
+}
+
 
 section {
     height: 233px;
@@ -101,10 +105,8 @@ input {
 }
 
 .mic_icon {
-    height: 21px;
-    width: 14px;
-    margin-top: 10px;
-    margin-left: 31px;
+    margin-top: 6px;
+    margin-left: 25px;
 }
 
 .btns_centered {
@@ -126,3 +128,7 @@ button {
     text-align: center;
 }
 
+footer {
+    background-color: #f1f1f1;
+    border-top: 1px solid #e4e4e4;
+}
