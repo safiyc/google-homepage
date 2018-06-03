@@ -1,5 +1,12 @@
 body {
     font-family: arial,sans-serif;
+    min-width: 800px;
+}
+
+.nav_top {
+    height: 30px;
+    padding: 0;
+    margin-top: 15px;
 }
 
 .nav_text {
@@ -13,29 +20,38 @@ body {
     color: black;
 }
 
-.nav_top {
-    height: 30px;
-    padding: 0;
-    margin-top: 15px;
+.about {
+    margin-left: 17px;
+}
+
+.store {
+    margin-left: 2.5px;
+}
+
+.gmail {
+    margin-top: 3px;
+    opacity: .85;
+}
+
+.images {
+    margin-left: -1px;
+    margin-top: 3px;
+    margin-right: 7px;
+    opacity: .85;
 }
 
 .nav_link_icon {
     background-image: url(http://ssl.gstatic.com/gb/images/i1_1967ca6a.png);
     background-size: 528px 68px;
-    /* height: 30px;
-    width: 30px; */
-    /* padding-left: 15px; */
 }
-
-/* #nav_link_images {
-    padding-right: 15px;
-} */
 
 #nav_link_apps {
     background-position: -132px -38px;
     opacity: .55;
     height: 30px;
     width: 30px;
+    margin-right: 20px;
+    margin-top: 5px;
 }
 
 #nav_link_bell {
@@ -44,7 +60,8 @@ body {
     opacity: .55;
     height: 20px;
     width: 20px;
-    margin-top: 4px;
+    margin-top: 10px;
+    margin-right: 19px;
     border-radius: 50%;
 }
 
@@ -53,9 +70,10 @@ body {
         url(https://lh3.googleusercontent.com/-Jcg8Hv7H-Ac/AAAAAAAAAAI/AAAAAAAAAAA/AB6qoq1K0DivnWNfxwCy862dkynXz1CMoA/s32-c-mo/photo.jpg);
     height: 32px;
     width: 32px;
+    margin-right: 29px;
+    margin-top: 4px;
     border-radius: 50%;
 }
-
 
 section {
     height: 233px;
@@ -71,13 +89,12 @@ section {
 }
 
 form {
-    margin: auto;
+    margin: 27px auto;
     width: 584px;
 }
 
 .btn-block {
     height: 44px;
-    /* width: 484px; */
     width: 100%;
     border-radius: 2px;
     border: 1px solid #e5e5e5;
@@ -88,7 +105,6 @@ form {
 input {
     border: none;
     outline: none;
-    /* width: 403px; */
     width: 86%;
     overflow: hidden;
     white-space: nowrap;
@@ -100,7 +116,6 @@ input {
     display: inline-block;
     position: absolute;
     height: 44px;
-    /* width: 65px; */
     width: 14%;
 }
 
