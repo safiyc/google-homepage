@@ -5,72 +5,82 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
         <link rel="stylesheet" href="css/styles.css" type="text/css">
-        <title>Google - Safi</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+        <title>Google By Safi</title>
     </head>
     <body>
-        <nav class="navbar navbar-expand nav_top"> 
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-                    <a class="nav-link about" href="#">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link store" href="#">Store</a>
-                </li>
-            </ul>
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link gmail" href="#">Gmail</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link images" href="#">Images</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link nav_link_icons" href="#" id="nav_link_apps"></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link nav_link_icons" href="#" id="nav_link_bell"></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#" id="nav_link_initials"></a>
-                </li>
-            </ul>
-        </nav>
-    
-        <section>
-            <img src="images/google.png" alt="Google" class="google_logo">
-            <form>
-                <div class="search_bar">
-                    <input type="text">
-                    <div class="mic_space">
-                        <img src="images/google-mic.PNG" alt="Mic" class="mic_icon">
+        <div class="content">
+            <nav class="navbar navbar-expand nav_top"> 
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link about" href="https://www.google.com/intl/en/about/?fg=1&utm_source=google.com&utm_medium=referral&utm_campaign=hp-header" target="_blank">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link store" href="https://store.google.com/?utm_source=hp_header&utm_medium=google_oo&utm_campaign=GS100042" target="_blank">Store</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link gmail" href="https://www.google.com/gmail/about/#" target="_blank">Gmail</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link images" href="https://www.google.com/imghp?hl=en&tab=wi" target="_blank">Images</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav_link_icons" id="nav_link_apps" href="www.github.com/safiyc" target="_blank"></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav_link_icons" id="nav_link_bell" href="www.github.com/safiyc/google_search_page" target="_blank"></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="nav_link_initials" href="www.safiycham.com/" target="_blank"></a>
+                    </li>
+                </ul>
+            </nav>
+            <section>
+                <img src="images/google.png" alt="Google" class="google_logo">
+                <form>
+                    <div class="search_bar">
+                        <input type="text">
+                        <div class="mic_space">
+                            <img src="images/google-mic.PNG" alt="Mic" class="mic_icon">
+                        </div>
                     </div>
-                </div>
-                <br>
-                <div class="btns_centered">
-                    <button id="btn_search">Google Search</button>
-                    <button id="btn_lucky">I'm Feeling Lucky</button>
-                </div>
-            </form>
-        </section>
-        
+                    <br>
+                    <div class="btns_centered">
+                        <button id="btn_search"><a href="search_results.html">Google Search</a></button>
+                        <button id="btn_lucky"><a href="search_results.html">I'm Feeling Lucky</a></button>
+                    </div>
+                </form>
+            </section>
+        </div>
         <footer class="navbar navbar-expand bottom_footer">
             <ul class="navbar-nav  align-items-end mr-auto">
                 <li class="nav-item">
-                    <a class="nav-link bottom_links" id="ad_link" href="#">Advertising</a>
+                    <a class="nav-link bottom_links" id="ad_link" href="https://www.google.com/intl/en_us/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1" target="_blank">Advertising</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link bottom_links" href="#">Business</a>
+                    <a class="nav-link bottom_links" href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1#?modal_active=none" target="_blank">Business</a>
                 </li>
             </ul>
             <ul class="navbar-nav align-items-end">
                 <li class="nav-item">
-                    <a class="nav-link bottom_links" id="privacy_link" href="#">Privacy</a>
+                    <a class="nav-link bottom_links" id="privacy_link" href="https://policies.google.com/privacy?hl=en&gl=us" target="_blank">Privacy</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link bottom_links" href="#">Terms</a>
+                    <a class="nav-link bottom_links" href="https://policies.google.com/terms?hl=en&gl=us" target="_blank">Terms</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link bottom_links" id="settings_link" href="#">Settings</a>
+                <li class="nav-item dropup">
+                    <a class="nav-link bottom_links" data-toggle="dropdown" id="settings_link" href="#">Settings</a>
+                    <ul class="dropdown-menu dropdown-menu-right">
+                        <li></li><a class="dropdown-item" href="https://www.google.com/preferences?hl=en&fg=1" target="_blank">Search settings</a></li>
+                        <li></li><a class="dropdown-item" href="https://www.google.com/advanced_search?hl=en&fg=1" target="_blank">Advanced search</a></li>
+                        <li></li><a class="dropdown-item" href="https://www.google.com/history/optout?hl=en&fg=1" target="_blank">History</a></li>
+                        <li></li><a class="dropdown-item" href="https://support.google.com/websearch/?visit_id=0-636637421888168725-274978779&hl=en&rd=2#topic=3378866" target="_blank">Search Help</a></li>
+                        <li></li><a class="dropdown-item" href="www.safiycham.com/" target="_blank">Send feedback</a></li>
+                    </ul>
                 </li>    
             </ul>
         </footer>
