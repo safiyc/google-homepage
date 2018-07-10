@@ -18,6 +18,7 @@ body {
 .nav-link {
     color: black;
     opacity: .75;
+    cursor: pointer;
 }
 
 .nav-link:hover {
@@ -107,8 +108,13 @@ form {
     border-radius: 2px;
     border: 1px solid #e5e5e5;
     border-top-color: #ededed;
-    border-bottom-color: #c2c0c0;
-    box-shadow: 0 2px 2px -1px #d1d1d1;
+    border-bottom-color: rgba(194, 192, 192, .9);
+    box-shadow: 0 3px 2px -2px rgba(209, 209, 209, 0.95);
+}
+
+.search_bar:hover {
+    border-bottom-color: rgba(194, 192, 192, 1);
+    box-shadow: 0 4px 8px -1px rgba(209, 209, 209, 1);
 }
 
 input {
@@ -132,6 +138,7 @@ input {
 .mic_icon {
     margin-top: 6px;
     margin-left: 25px;
+    cursor: pointer;
 }
 
 .btns_centered {
@@ -143,15 +150,18 @@ button {
     height: 36px;
     line-height: 27px;
     border: none;
-    border-radius: 2px;
+    border-radius: 1px;
     background: #f2f2f2;
     color: #757575;
     font-weight: bold;
+    text-decoration: none;
 }
 
-button > a, button > a:hover {
-    color: inherit;
-    font-weight: inherit;
+button:hover {
+    outline: solid thin rgba(194, 192, 192, .8);
+    outline-offset: -1px;
+    box-shadow: 0 1px 1px 0px rgba(194, 192, 192, .4);
+    color: black;
 }
 
 #btn_search {
