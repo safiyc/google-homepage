@@ -1,9 +1,32 @@
-An HTML/CSS/Bootstrap clone of the Google homepage. All links work.
+# Google Homepage
+#### By Safiy Cham
 
-Pending:
--media query to account for change in browser size
--search results page
+## Technologies: HTML, CSS, Bootstrap, JavaScript
 
-Author: Safiy Cham
-website: www.safiycham.com
-github: www.github.com/safiyc
+## Description
+
+A near pixel perfect UI clone of the Google homepage. All links, icons, dropdowns, and buttons are functional.
+
+## Pending Tasks
+
+* Create a page for search results and link it to the search buttons on the homepage
+* Responsive Design
+* DRY
+
+## Links
+
+#### Launch Project - [Google Homepage](https://safiyc.github.io/google-homepage/)
+
+#### [Github Repo](https://github.com/safiyc/Google-Homepage.git)
+
+#### [Portfolio](http://www.safiycham.com/)
+
+## Contact Info
+
+#### csafiy@yahoo.com
+
+## License
+
+This software is licensed under the MIT License
+
+Copyright 2018

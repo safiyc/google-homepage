@@ -48,7 +48,7 @@ body {
 }
 
 .nav_link_icons {
-    background-image: url(http://ssl.gstatic.com/gb/images/i1_1967ca6a.png);
+    background-image: url("../images/google-icons.png");
     background-size: 528px 68px;
 }
 
@@ -73,8 +73,7 @@ body {
 }
 
 #nav_link_initials {
-    background-image: 
-        url(https://lh3.googleusercontent.com/-Jcg8Hv7H-Ac/AAAAAAAAAAI/AAAAAAAAAAA/AB6qoq1K0DivnWNfxwCy862dkynXz1CMoA/s32-c-mo/photo.jpg);
+    background-image: url("../images/letter-s.jpg");
     height: 32px;
     width: 32px;
     margin-right: 29px;
@@ -94,7 +93,7 @@ section {
     width: 272px;
 }
 
-form {
+.search-btns {
     margin: 0 auto 17px;
     width: 586px;
 }
@@ -114,7 +113,7 @@ form {
 
 .search_bar:hover {
     border-bottom-color: rgba(194, 192, 192, 1);
-    box-shadow: 0 4px 8px -1px rgba(209, 209, 209, 1);
+    box-shadow: 0 3px 8px -1px rgba(209, 209, 209, 1);
 }
 
 input {
@@ -165,11 +164,13 @@ button:hover {
 }
 
 #btn_search {
+    outline: none;
     margin-right: 2px;
     padding: 0 17px;
 }
 
 #btn_lucky {
+    outline: none;
     margin-left: 2px;
     padding: 0 17px;
 }
