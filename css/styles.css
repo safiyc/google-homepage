@@ -36,13 +36,13 @@ body {
 }
 
 .gmail {
-    margin-top: 3px;
+    margin-top: 2px;
     opacity: .85;
 }
 
 .images {
     margin-left: -1px;
-    margin-top: 3px;
+    margin-top: 2px;
     margin-right: 7px;
     opacity: .85;
 }
@@ -165,8 +165,8 @@ button:hover {
 
 #btn_search {
     outline: none;
-    margin-right: 2px;
-    padding: 0 17px;
+    margin-right: 7px;
+    padding: 0 16px 0 17px;
 }
 
 #btn_lucky {
@@ -192,6 +192,7 @@ footer {
 
 .bottom_links {
     color: rgb(53, 53, 53);
+    padding-bottom: 9px;
 }
 
 .bottom_links:hover {
